@@ -15,7 +15,8 @@ app.use(authRoutes);
 app.use(trackRoutes);
 
 const mongoUri =
-  "mongodb+srv://admin:Koa0709@trackservercluster.paobt.mongodb.net/test?retryWrites=true&w=majority";
+  // "mongodb+srv://admin:Koa0709@trackservercluster.paobt.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://kimkim1802:Kumukoa0709@cluster0.dk5at.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose
   .connect(mongoUri, {
     useNewUrlParser: true,
