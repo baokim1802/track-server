@@ -21,7 +21,7 @@ mongoose
   .connect(mongoUri, {
     useNewUrlParser: true,
     // useCreateIndex: true,
-  })
+  }) 
   .catch((error) => {
     console.log("Got error connecting to mongo", error);
   });
